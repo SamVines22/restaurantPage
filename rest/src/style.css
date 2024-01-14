@@ -1,0 +1,91 @@
+body, html {
+    height: 100%;
+}
+
+#content {
+    height: 40%;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    font-size: 4rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#liz {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 100px;
+}
+
+.middle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 80%;
+}
+
+.address {
+    padding-top: 5%;
+    text-align: center;
+    font-size: 2rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.left {
+    font-size: 1.5rem;
+    padding: 2%;
+}
+
+.right {
+    padding: 2%;
+}
+
+.day {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 1%;
+    font-size: 1.5rem;
+}
+
+.d {
+    padding-left: 15%;
+}
+
+#links {
+    text-align: center;
+}
+
+.nav {
+    width: 12%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-size: 1rem;
+    margin: 1%;
+}
+
+.leftM, .rightM {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(1fr, 5);
+    font-size: 1.5rem;
+
+}
+
+#head {
+    justify-self: center;
+    font-size: 1.8rem;
+    margin: 1%;
+ 
+
+}
